@@ -7,6 +7,16 @@ div.logo {
 	padding-bottom: 15px;
 }
 
+div.cover {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	font-family: 'Poiret One', cursive;
+}
+
 div.menu {
 	font-family: 'Poiret One', cursive;
 	width: 500px;
