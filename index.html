@@ -9,7 +9,7 @@
 
         <div class="social">
         	<a href="http://www.facebook.com/freshpotsband" target="_blank">
-        			<img src="img/fb.png" alt="Fresh Pots on Facebook" />
+        			<img src="img/fb.png?random=2345235443" alt="Fresh Pots on Facebook" />
         	</a>
         </div>
 
@@ -63,8 +63,13 @@
    			  <!--
                             <iframe width="500" height="280" src="https://www.youtube.com/embed/1LezX-q7U9o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           -->
-          <iframe style="border: 0; width: 500px; height: 800px;" src="https://bandcamp.com/EmbeddedPlayer/album=2360820919/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://freshpotsofficial.bandcamp.com/album/fresh-pots">Fresh Pots by Fresh Pots</a></iframe>
+          <iframe style="border: 0; width: 500px; height: 800px;" src="https://bandcamp.com/EmbeddedPlayer/album=2360820919/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" id="bandcampframe" seamless><a href="http://freshpotsofficial.bandcamp.com/album/fresh-pots">Fresh Pots by Fresh Pots</a></iframe>
+            <script>
+              var _bandcampframe = document.getElementById("bandcampframe");
+                _bandcampframe.contentWindow.location.href = _bandcampframe.src;
+            </script>
             <i>2017, Ivy House</i>
+
 
 
         </div>
