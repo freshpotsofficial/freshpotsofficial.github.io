@@ -14,11 +14,11 @@ div.cover {
 	text-align: center;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Courier New';
 }
 
 div.menu {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Courier New';
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
@@ -36,7 +36,7 @@ div.social {
 }
 
 div.live, div.music, div.contact {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Courier New';
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
@@ -48,7 +48,7 @@ div.live, div.music, div.contact {
 }
 
 div.bio {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Courier New';
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
